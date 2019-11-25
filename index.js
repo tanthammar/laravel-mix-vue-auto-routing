@@ -10,7 +10,7 @@ mix.extend('vueAutoRouting', new class {
 
             importPrefix: '@/pages/',
 
-            dynamicImport: false,
+            dynamicImport: true,
 
             nested: false
 
