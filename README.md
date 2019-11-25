@@ -9,7 +9,10 @@ Add this to `webpack.mix.js` then continue with the default instructions below.
 mix.babelConfig({
    plugins: ['@babel/plugin-syntax-dynamic-import'],
 })
-```
+``` 
+
+If you use sass, separate webpack.mix.js into two files, one for js only and the other for all scss/css. Then install `laravel-mix-merge-manifest`. Follow the installation instructions on https://github.com/KABBOUCHI/laravel-mix-merge-manifest
+
 
 # Laravel Mix - Vue Auto Routing w dynamic import
 
