@@ -3,6 +3,14 @@ This fork has dynamic imports activated. It requires you to install`@babel/plugi
 ```
 npm require @babel/plugin-syntax-dynamic-import --save-dev
 ```
+
+Add this to `webpack.mix.js` then continue with the default instructions below.
+```
+mix.babelConfig({
+   plugins: ['@babel/plugin-syntax-dynamic-import'],
+})
+```
+
 # Laravel Mix - Vue Auto Routing w dynamic import
 
 This extension generate Vue Router routing automatically.
