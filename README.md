@@ -1,4 +1,9 @@
-# Laravel Mix - Vue Auto Routing
+# This fork requires babel/plugin-syntax-dynamic-import
+This fork has dynamic imports activated. It requires you to install`@babel/plugin-syntax-dynamic-import`
+```
+npm require @babel/plugin-syntax-dynamic-import --save-dev
+```
+# Laravel Mix - Vue Auto Routing w dynamic import
 
 This extension generate Vue Router routing automatically.
 
