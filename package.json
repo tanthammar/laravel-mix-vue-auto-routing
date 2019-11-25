@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/kabbouchi/laravel-mix-vue-auto-routing#readme",
   "devDependencies": {
-    "vue-auto-routing": "^0.3.0"
+    "vue-auto-routing": "^0.4.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0"
   }
 }
